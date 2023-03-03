@@ -109,7 +109,7 @@
 - Install [Shapr3D](https://www.shapr3d.com/) [🍺: `shapr3d`] <sup>♻️✨</sup>
 
 ## Additional Utilities
-- Install [Cyberduck](https://apps.apple.com/us/app/cyberduck/id409222199?mt=12) <sup>🛄✨</sup>
+- Install [Cyberduck](https://apps.apple.com/us/app/cyberduck/id409222199?mt=12) <sup>🛄💰✨</sup>
 - Install [Parallels](https://www.parallels.com/products/desktop/) [🍺: `parallels`] <sup>♻️</sup>
 - Install [Parsec](https://parsec.app/downloads) [🍺: `parsec`] <sup>💸♻️</sup>
 - Install [Calcbot](https://apps.apple.com/us/app/calcbot-the-smart-calculator/id931657367?mt=12) <sup>🛄💰✨</sup>
