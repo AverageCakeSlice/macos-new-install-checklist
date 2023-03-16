@@ -32,6 +32,7 @@
 - Install [PasteBot](https://tapbots.com/pastebot/buy/) [🍺: `pastebot`] <sup>🛄💰✨</sup>
 - Install [Bartender](https://www.macbartender.com/Bartender4/purchase.html) [🍺: `bartender`] <sup>🛄💰✨</sup>
 - Install [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html)
+- Install [Kap](https://getkap.co/)[🍺: `kap`] <sup>✨</sup>
 - Install a terminal emulator of choice
     - [Warp](https://app.warp.dev/get_warp) [🍺: `warp`] <sup>✨</sup>
     - [iTerm2](https://iterm2.com/downloads.html) [🍺: `iterm2`]
@@ -116,7 +117,7 @@
 
 
 ## Install every brew package in one command
-`$ brew install brave-browser 1password pastebot bartender warp iterm2 jetbrains-toolbox dotnet dotnet@6 pyenv nvm azure-data-studio azure-storage-explorer visual-studio-code postman gitkraken slack microsoft-teams telegram-desktop discord spotify spotmenu iina balenaetcher raspberry-pi-imager prusaslicer shapr3d parallels`
+`$ brew install brave-browser 1password pastebot bartender kap warp iterm2 jetbrains-toolbox dotnet dotnet@6 pyenv nvm azure-data-studio azure-storage-explorer visual-studio-code postman gitkraken slack microsoft-teams telegram-desktop discord spotify spotmenu iina balenaetcher raspberry-pi-imager prusaslicer shapr3d parallels`
 
 ---
 - 💰 - App has a one-time upfront purchase cost
