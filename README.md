@@ -8,12 +8,16 @@
     - Disable Siri
 - Software Updates
     - Install Xcode CLI tools 
-        - `$ xcode-select --install`
+        ```sh
+        xcode-select --install
+        ```
     - Install all available system updates <sup>✨</sup>
 - System Preferences & Hardware Changes
     - Mouse
         - Disable mouse acceleration  <sup>✨</sup>
-            - `$ defaults write .GlobalPreferences com.apple.mouse.scaling -1`
+            ```sh
+            defaults write .GlobalPreferences com.apple.mouse.scaling -1
+            ```
         - Disable natural scrolling
             - System Preferences -> Mouse -> Natural Scrolling
     - Dock
@@ -22,7 +26,9 @@
 
 ## Essentials
 - Install [HomeBrew](https://brew.sh/) <sup>✨</sup>
-    - `$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+    ```sh
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
 - Install your preferred web browser 
     - I use [Brave](https://brave.com/download/) [🍺: `brave-browser`]
     - See [Browser Config & Extensions](#browser-config--extensions) if you want to take care of this right away
@@ -37,7 +43,9 @@
     - [Warp](https://app.warp.dev/get_warp) [🍺: `warp`] <sup>✨</sup>
     - [iTerm2](https://iterm2.com/downloads.html) [🍺: `iterm2`]
 - Install [oh-my-zsh](https://ohmyz.sh/#install) <sup>✨</sup>
-    - `$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+    ```sh
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    ```
     - Install and configure the [Powerlevel10k theme](https://github.com/romkatv/powerlevel10k) <sup>✨</sup>
 
 ## Browser Config & Extensions
@@ -77,8 +85,12 @@
 - Install [Node Version Manager (NVM)](https://github.com/nvm-sh/nvm) [🍺: `nvm`] <sup>✨</sup>
     - Install Node LTS <sup>✨</sup>
     - Install latest Node 16 release
-    - `$ nvm install <version>`
-    - `$ nvm use <version>`
+        ```sh
+        nvm install <version>
+        ```
+        ```sh
+        nvm use <version>
+        ```
 - Install [Azure Data Studio](https://azure.microsoft.com/en-us/products/data-studio) [🍺: `azure-data-studio`]
     - Install your preferred extensions
 - Install [Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer) [🍺: `microsoft-azure-storage-explorer`]
@@ -117,7 +129,9 @@
 
 
 ## Install every brew package in one command
-`$ brew install brave-browser 1password pastebot bartender kap warp iterm2 jetbrains-toolbox dotnet dotnet@6 pyenv nvm azure-data-studio azure-storage-explorer visual-studio-code postman gitkraken slack microsoft-teams telegram-desktop discord spotify spotmenu iina balenaetcher raspberry-pi-imager prusaslicer shapr3d parallels`
+```sh
+brew install brave-browser 1password pastebot bartender kap warp iterm2 jetbrains-toolbox dotnet dotnet@6 pyenv nvm azure-data-studio azure-storage-explorer visual-studio-code postman gitkraken slack microsoft-teams telegram-desktop discord spotify spotmenu iina balenaetcher raspberry-pi-imager prusaslicer shapr3d parallels
+```
 
 ---
 - 💰 - App has a one-time upfront purchase cost
