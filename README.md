@@ -130,7 +130,7 @@
 
 ## Install every brew package in one command
 ```sh
-brew install brave-browser 1password pastebot bartender kap warp iterm2 jetbrains-toolbox dotnet dotnet@6 pyenv nvm azure-data-studio azure-storage-explorer visual-studio-code postman gitkraken slack microsoft-teams telegram-desktop discord spotify spotmenu iina balenaetcher raspberry-pi-imager prusaslicer shapr3d parallels
+brew install brave-browser 1password pastebot bartender kap warp iterm2 jetbrains-toolbox dotnet dotnet@6 pyenv nvm azure-data-studio microsoft-azure-storage-explorer visual-studio-code postman gitkraken slack microsoft-teams telegram-desktop discord spotify spotmenu iina balenaetcher raspberry-pi-imager prusaslicer shapr3d parallels
 ```
 
 ---
