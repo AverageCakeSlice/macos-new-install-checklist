@@ -1,4 +1,4 @@
-# New Install Checklist (MacOS Ventura 13.2)
+# New Install Checklist (MacOS Sonoma 14.3.1)
 
 ## Prelude - Setup Wizard & Settings
 - Setup Wizard
@@ -12,17 +12,24 @@
         xcode-select --install
         ```
     - Install all available system updates <sup>✨</sup>
-- System Preferences & Hardware Changes
+- System Settings & Hardware Changes
     - Mouse
         - Disable mouse acceleration  <sup>✨</sup>
+          - Old approach
             ```sh
             defaults write .GlobalPreferences com.apple.mouse.scaling -1
             ```
+          - New for Sonoma
+            - System Settings -> Mouse -> Advanced -> Turn Pointer Acceleration Off
         - Disable natural scrolling
-            - System Preferences -> Mouse -> Natural Scrolling
+            - System Settings -> Mouse -> Natural Scrolling
+    - Keyboard
+      - Remap screenshot and screen capture shortcuts
+        - System Settings -> Keyboard -> Keyboard Shortcuts -> Screenshots
     - Dock
         - Auto-hide the Dock  <sup>✨</sup>
-            - System Preferences -> Desktop & Dock -> Automatically hide and show the Dock
+            - System Settings -> Desktop & Dock -> Automatically hide and show the Dock
+
 
 ## Essentials
 - Install [HomeBrew](https://brew.sh/) <sup>✨</sup>
@@ -40,8 +47,8 @@
 - Install [Logi Options+](https://www.logitech.com/en-us/software/logi-options-plus.html)
 - Install [Kap](https://getkap.co/)[🍺: `kap`] <sup>✨</sup>
 - Install a terminal emulator of choice
-    - [Warp](https://app.warp.dev/get_warp) [🍺: `warp`] <sup>✨</sup>
-    - [iTerm2](https://iterm2.com/downloads.html) [🍺: `iterm2`]
+    - [Warp](https://app.warp.dev/get_warp) [🍺: `warp`] 
+    - [iTerm2](https://iterm2.com/downloads.html) [🍺: `iterm2`] <sup>✨</sup>
 - Install [oh-my-zsh](https://ohmyz.sh/#install) <sup>✨</sup>
     ```sh
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -60,8 +67,8 @@
 - Setup work and personal profiles browsers with multi-profile support <sup>✨</sup>
 
 ## Email, Calendar, and Contacts
-- Setup email accounts in System Preferences
-    - System Preferences -> Internet Accounts -> Add Acccount...
+- Setup email accounts and calendars in System Settings
+    - System Settings -> Internet Accounts -> Add Acccount...
 - Install a third-party email client if you prefer (I just use the vanilla Mail app)
     - [Spark](https://sparkmailapp.com/download) <sup>💸♻️</sup>
     - [Canary Mail](https://apps.apple.com/us/app/canary-mail/id1236045954) <sup>🛄💸♻️</sup>
@@ -75,16 +82,23 @@
     - Install Pycharm <sup>✨</sup>
         - Community edition is free for personal use
     - Install DataGrip <sup>♻️✨</sup>
-    - Install Fleet
     - Enable settings sync for all IDE's <sup>✨</sup>
-- Install the [.NET SDK](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks)
-    - .NET 7 (Stable) [🍺: `dotnet`]
-    - .NET 6 (LTS, Stable) [🍺: `dotnet@6`] <sup>✨</sup>
+- Install [neovim](https://neovim.io/) <sup>✨</sup>
+  - This editor can be configured to your heart's content. If you are not yet familiar with vim/neovim but are interested in learning, [The Primeagen has a fantastic series on YouTube dedicated to learning and configuring neovim](https://youtube.com/playlist?list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R&si=TkAuWV-wHfL6uYFv)
+  - If you are already familiar with configuring neovim, [LunarVim](https://www.lunarvim.org/) is a nice IDE layer that is very similar to Spacemacs.
+  - If aren't quite comfortable with jumping to a terminal-based editor, you can still start learning Vim motions with a plugin.
+    - For Jetbrains Products, use [IdeaVim](https://plugins.jetbrains.com/plugin/164-ideavim)
+    - For VSCode, use [VSCodeVim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+- Install the [.NET SDK](https://dotnet.microsoft.com/en-us/download)
+    - .NET 8 (LTS, Stable) [🍺: `dotnet`]<sup>✨</sup>
 - Install [pyenv](https://github.com/pyenv/pyenv) [🍺: `pyenv`] <sup>✨</sup>
-    - Follow the setup instructions closely, this needs a moderate amount of configuration
+    - Follow the setup instructions closely, this needs a moderate amount of configuration.
 - Install [Node Version Manager (NVM)](https://github.com/nvm-sh/nvm) [🍺: `nvm`] <sup>✨</sup>
-    - Install Node LTS <sup>✨</sup>
-    - Install latest Node 16 release
+    - Install the latest Node LTS version <sup>✨</sup>
+        ```sh
+        nvm install --lts
+        ```
+    - Install and use the latest Node release
         ```sh
         nvm install <version>
         ```
@@ -130,7 +144,7 @@
 
 ## Install every brew package in one command
 ```sh
-brew install brave-browser 1password pastebot bartender kap warp iterm2 jetbrains-toolbox dotnet dotnet@6 pyenv nvm azure-data-studio microsoft-azure-storage-explorer visual-studio-code postman gitkraken slack microsoft-teams telegram-desktop discord spotify spotmenu iina balenaetcher raspberry-pi-imager prusaslicer shapr3d parallels
+brew install brave-browser 1password pastebot bartender kap warp iterm2 jetbrains-toolbox dotnet pyenv nvm azure-data-studio microsoft-azure-storage-explorer visual-studio-code postman gitkraken slack microsoft-teams telegram-desktop discord spotify spotmenu iina balenaetcher raspberry-pi-imager prusaslicer shapr3d parallels
 ```
 
 ---
