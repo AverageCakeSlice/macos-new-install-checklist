@@ -1,5 +1,15 @@
 # New Install Checklist (MacOS Sonoma 14.3.1)
 
+## Legend
+---
+- 💰 - App has a one-time upfront purchase cost
+- 💸 - App has a freemium pricing model with paid features
+- ♻️ - App has a recurring subscription pricing model
+- ✨ - Highly-recommended app or preference
+- 🍺 - A homebrew package is available for this app
+- 🛄 - App only available on the Mac App Store
+- 🍎 - App only available on Apple Silicon Macs
+
 ## Prelude - Setup Wizard & Settings
 - Setup Wizard
     - Sign-in with Apple ID
@@ -146,12 +156,3 @@
 ```sh
 brew install brave-browser 1password pastebot bartender kap warp iterm2 jetbrains-toolbox dotnet pyenv nvm azure-data-studio microsoft-azure-storage-explorer visual-studio-code postman gitkraken slack microsoft-teams telegram-desktop discord spotify spotmenu iina balenaetcher raspberry-pi-imager prusaslicer shapr3d parallels
 ```
-
----
-- 💰 - App has a one-time upfront purchase cost
-- 💸 - App has a freemium pricing model with paid features
-- ♻️ - App has a recurring subscription pricing model
-- ✨ - Highly-recommended app or preference
-- 🍺 - A homebrew package is available for this app
-- 🛄 - App only available on the Mac App Store
-- 🍎 - App only available on Apple Silicon Macs
