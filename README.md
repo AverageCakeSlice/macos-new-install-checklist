@@ -1,7 +1,6 @@
 # New Install Checklist (MacOS Sonoma 14.3.1)
 
 ## Legend
----
 - 💰 - App has a one-time upfront purchase cost
 - 💸 - App has a freemium pricing model with paid features
 - ♻️ - App has a recurring subscription pricing model
