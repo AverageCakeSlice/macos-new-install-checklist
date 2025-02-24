@@ -114,6 +114,16 @@
         ```sh
         nvm use <version>
         ```
+- Install and enable [pnpm](https://pnpm.io/installation) <sup>✨</sup>
+    - Install the latest version of Corepack
+        ```sh
+        npm install --global corepack@latest
+        ```
+    - Enable PNPM
+        ```sh
+        corepack enable pnpm
+        ```
+    - **NOTE**: Homebrew provides a formulae for pnpm; DO NOT USE THIS. It prevents you from pinning pnpm versions in projects with `corepack use pnpm@<version>` in projects, which is very helpful for maintaining reproduceable builds.
 - Install [Azure Data Studio](https://azure.microsoft.com/en-us/products/data-studio) [🍺: `azure-data-studio`]
     - Install your preferred extensions
 - Install [Azure Storage Explorer](https://azure.microsoft.com/en-us/products/storage/storage-explorer) [🍺: `microsoft-azure-storage-explorer`]
