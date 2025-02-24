@@ -57,7 +57,8 @@
 - Install [Kap](https://getkap.co/)[🍺: `kap`] <sup>✨</sup>
 - Install a terminal emulator of choice
     - [Warp](https://app.warp.dev/get_warp) [🍺: `warp`] 
-    - [iTerm2](https://iterm2.com/downloads.html) [🍺: `iterm2`] <sup>✨</sup>
+    - [iTerm2](https://iterm2.com/downloads.html) [🍺: `iterm2`]
+    - [Alacritty](https://alacritty.org/) [🍺: `alacritty`] <sup>✨</sup>
 - Install [oh-my-zsh](https://ohmyz.sh/#install) <sup>✨</sup>
     ```sh
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -163,5 +164,5 @@
 
 ## Install every brew package in one command
 ```sh
-brew install brave-browser 1password pastebot bartender kap warp iterm2 jetbrains-toolbox dotnet pyenv nvm azure-data-studio microsoft-azure-storage-explorer visual-studio-code postman gitkraken slack microsoft-teams telegram-desktop discord spotify spotmenu iina balenaetcher raspberry-pi-imager prusaslicer shapr3d parallels
+brew install brave-browser 1password pastebot bartender kap warp iterm2 alacritty jetbrains-toolbox dotnet pyenv nvm azure-data-studio microsoft-azure-storage-explorer visual-studio-code postman gitkraken slack microsoft-teams telegram-desktop discord spotify spotmenu iina balenaetcher raspberry-pi-imager prusaslicer shapr3d parallels
 ```
